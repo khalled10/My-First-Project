@@ -1,0 +1,66 @@
+body {
+    background-color: #DBEAFE;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav {
+    background-color: #071739;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+nav .nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+nav .nav-links a {
+    text-decoration: none;
+    color: #f1f1f1;
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+nav .nav-links a:hover {
+    background-color: #1e3a8a;
+    color: white;
+    border-radius: 4px;
+}
+section {
+    text-align: center;
+    padding: 80px 20px;
+    flex: 1;
+}
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+footer {
+    background-color: #071739;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #007bff;
+}
+#vision{
+    color:red;
+}
+#mission{
+    color: green;
+}

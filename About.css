@@ -1,0 +1,124 @@
+body {
+    background-color: #DBEAFE;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav {
+    background-color: #071739;
+    padding: 10px 20px;
+    top: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+nav .nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #f1f1f1;
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+nav .nav-links a:hover {
+    background-color: #1e3a8a;
+    color: white;
+    border-radius: 4px;
+}
+
+footer {
+    background-color:#071739;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; 
+}
+  .about-us {
+            background-color: #DBEAFE;
+            padding: 50px 20px;
+        }
+
+        .about-us h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .about-us p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .book-selling {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .book {
+            background-color: whitesmoke;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            margin-bottom: 30px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .book img {
+            width: 150px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .book h3 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .book p {
+            font-size: 16px;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+
+        .book .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #007bff;
+            margin-top: 10px;
+        }
+
+        .book:hover {
+            transform: translateY(-10px);
+        }
+
+        .btn-buy {
+            background-color:#1e3a8a;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .btn-buy:hover {
+            background-color: #0056b3;
+        }
+        .sell{
+            color: #071739;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }

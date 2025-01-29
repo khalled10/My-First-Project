@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="About.css" rel="stylesheet">
+    <title>Clover Books</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="Registration.html">Registration</a>
+            <a href="Vision&Mission.html">Vision & Mission</a>
+            <a href="ContactUs.html">Contact Us</a>
+        </div>
+    </nav>
+    <section class="about-us">
+        <h2>About Clover Books</h2>
+        <p>
+            A book is the gateway to knowledge and entertainment!, In our store you'll find high-quality books suitable for every age and interest. 
+            Whether you're looking for captivating stories, life-enhancing lessons, or new skills to learn, we have something special for you.
+        </p>
+        <h3 class="sell">Our Best selling Books:</h3>
+        <div class="book-selling">
+            <div class="book">
+                <img src= "The power of Habit.jpg "alt="Book 1">
+                <h3>The power of Habits</h3>
+                <p>Director:Charles Duhigg</p>
+                <p class="price">$15.99</p>
+                <a href="Registration.html" class="btn-buy"> PURCHASE</a>
+            </div>
+            <div class="book">
+                <img src="Atomic Habits.jpg" alt="Book 2">
+                <h3>Atomic Habits</h3>
+                <p>Director: James Clear</p>
+                <p class="price">$10.99</p>
+                <a href="Registration.html" class="btn-buy">PURCHASE</a>
+            </div>
+            <div class="book">
+                <img src="THINK AGAIN.jpg" alt="Book 3">
+                <h3>THINK AGAIN</h3>
+                <p>Director: Adam Grant</p>
+                <p class="price">$5.99</p>
+                <a href="Registration.html" class="btn-buy">PURCHASE</a>
+            </div>
+            <div class="book">
+                <img src="RICH DAD AND POOR DAD.jpg" alt="Book 4">
+                <h3>RICH DAD AND POOR DAD</h3>
+                <p>Director:ROBERT T.KIYOSAKI</p>
+                <p class="price">$10.99</p>
+                <a href="Registration.html" class="btn-buy">PURCHASE</a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-gray text-light pt-4">
+        <div class="container">
+                <div class="text-center ">
+                    <h5>Nagala So Xarir -</h5>
+                    <p>Email: <a href="mailto:iamqaalid@gmail.com" class="text-light text-decoration-none">khaled@Gmail.com</a></p>
+                    <p>Phone: +252 7970471</p>
+                    <p>Location: Banadir - Hodan - kpp.</p>
+                </div>
+            </div>
+            <div class="text-center py-3 border-top mt-3">
+                <p class="mb-0">&copy; Clover Books</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.querySelectorAll('.btn-buy').forEach(button => {
+            button.addEventListener('click', () => {
+                alert("Thank you for your purchase!");
+                alert("let's go for registration")
+            });
+        });
+    </script>
+</body>
+</html>
